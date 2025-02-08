@@ -1,0 +1,16 @@
+def power(x, y): 
+    return x ** y
+
+def calc(power_value):
+    ops = {'power': power}  # Dictionary with the power function
+    l = []
+    for i in range(3):
+        num = float(input(f'Digite o {i + 1}º número de 3 números para elevar à potência de {power_value}: '))
+        # Using the dictionary and power function to calculate the results
+        result = ops['power'](num, power_value)
+        l.append(result)
+    print(l)
+
+# Ask the user for the desired power
+power_value = int(input('Você quer elevar os números a seguir a qual potência? '))
+calc(power_value)  # Call the function, passing the power as an argument
