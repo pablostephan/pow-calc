@@ -2,7 +2,7 @@
 
 ## Description
 
-This Python script prompts the user to enter three numbers and calculates the third power of each number. The results are stored in a list and displayed to the user.
+This Python script prompts the user to enter three numbers and calculates the power value of each number. The results are stored in a list and displayed to the user.
 
 ## Features
 
@@ -10,6 +10,6 @@ This Python script prompts the user to enter three numbers and calculates the th
 
 - Accepts three numerical inputs from the user.
 
-- Computes the third power of each input and stores the results in a list.
+- Computes the power value of each input and stores the results in a list.
 
 - Displays the computed values at the end.
